@@ -1,0 +1,100 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Cadastro usuario sucesso",
+        "description": "",
+        "id": "cadastro-de-usuario;cadastro-usuario-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3691464207,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "LoginSteps.acessarLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1604421364,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesso cadastro de novo usuario",
+            "match": {
+              "location": "LoginSteps.acesso_cadastro_de_novo_usuario()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1945259830,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu preencho o cadastro",
+            "match": {
+              "location": "CadastroSteps.eu_preencho_o_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4486382185,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "finalizo o cadastro",
+            "match": {
+              "location": "CadastroSteps.finalizo_o_cadastro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22410984,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu vejo a mensagem de novo usuario",
+            "match": {
+              "location": "CadastroSteps.eu_vejo_a_mensagem_de_novo_usuario()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@cadastro-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuario",
+    "description": "",
+    "id": "cadastro-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "cadastro_usuario.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@cadastro"
+      }
+    ]
+  }
+]
