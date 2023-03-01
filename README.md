@@ -22,7 +22,8 @@ This project will execute 3 scenários on the website [automationpractice](https
   * Send message
   
 > Developed and executed by Intellij IDEA Comunnity Edition 
->This project must be execute by Intellij but next commit the project will to updated being able exectued by command line! 
+
+>This project must be execute by Intellij but next step the project will to updated being able exectued by command line! 
 
 
 
