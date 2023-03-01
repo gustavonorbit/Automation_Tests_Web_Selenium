@@ -3,7 +3,7 @@ PROJECT AUTOMATION TESTS
 SELENIUM AND JAVA
 -----------------
 
-This project will execute 3 scenários on the website [automationpractice](https://automationexercise.com/):
+This project will execute 3 scenários on the website [automationpractice](https://automationexercise.com/) in **Chrome**:
 
 1. Login with new user:
   * Submmit name
